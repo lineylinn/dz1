@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table, th, td {
+        border: 1px solid black
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table style="width: 30%">
+    <thead>
+    </thead>
+    <tr style="text-align:center;">
+        <td colspan="3" style="background-color: blue">
+            My first table
+        </td>
+    </tr>
+    <tbody>
+        <tr style="text-align:center;">
+            <td style="background-color: blue">
+               First cell
+            </td>
+            <td style="background-color: blue">
+                Second cell
+            </td>
+            <td colspan="3" rowspan="4" style="background-color: yellow">
+                6 cells merged
+        </tr>
+        <tr style="text-align:center;">
+            <td colspan="2" style="background-color: yellow">
+                2 cells merged
+            </td>
+        </tr>
+        <tr style="text-align:center;">
+            <td rowspan="2" style="background-color: yellow">
+                1st cell
+                <br>
+                3rd row
+            </td>
+        </tr>
+        <tr style="text-align:center;">
+            <td rowspan="2" style="background-color: yellow">
+                2nd cell
+                <br>
+                3rd row
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+    <tr style="text-align:center;">
+        <td colspan="3" style="background-color: yellow">
+            Do you like tabels
+        </td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>
